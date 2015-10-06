@@ -13,3 +13,10 @@ for i in range (len(A)):
         print(A[i])
 
 
+A = list(map(int, input().split()))
+m=A[1]
+for i in range(len(A)):
+  if A.count(A[i]) > A.count(A[1]):
+    max = A[i]
+print(A[i])
+
