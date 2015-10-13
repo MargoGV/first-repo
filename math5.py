@@ -1,6 +1,6 @@
 import numpy as np
-import math
 import matplotlib.pyplot as plt
+import math
 def f(x, t):
 	y = eval(t)
 	return y
